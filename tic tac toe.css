@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Gochi+Hand);
+
+h1 {
+    font-family: 'Gochi Hand', cursive;
+    text-align: center;
+    font-size: 4em;
+}
+
+.grid {
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-row {
+    width: 99%;
+    height: 33.33%;
+}
+
+.grid-cell {
+    width: 32%;
+    height: 98%;
+    background-color: green;
+    border-color: white;
+    border: 3px;
+    border-style: solid;
+    position: relative;
+    float:left;
+    font-size: 11em;
+    text-align: center;
+    font-family:'Gochi Hand', cursive;
+    line-height: 1;
+    color: white;
+}
+
+.grid-cell:hover {
+    background-color: lightgreen;
+}
+
+button {
+    font-family: 'Gochi Hand', cursive;
+    width: auto;
+    height: auto;
+    font-size: 2.5em;
+    margin: 40px 9px 0 auto;
+    display: block;
+}
